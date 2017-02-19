@@ -10,7 +10,7 @@ class CourseItem extends Component {
 		const courseLength = '50 hours'
 		const courseDescription = 'Course Description'
     return (
-      <div className="CourseList">
+      <div className="CourseList" >
 				<Item.Group>
 					<Item>
 						<Item.Image size='tiny' src={this.props.imgUrl} />
