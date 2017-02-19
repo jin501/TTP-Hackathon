@@ -13,7 +13,6 @@ class Track extends Component {
     return (
       <div className="Track">
         {courses}
->>>>>>> 08570295d253a2e3f6b94241036833e5ee84d42e
       </div>
     )
   }
