@@ -1,24 +1,15 @@
 import React, { Component } from 'react';
-import CourseList from './CourseList'
+import Track from './Track'
 
 class UserProfile extends Component {
   constructor(){
     super();
-    this.state = {
-      user: {
-        name: '',
-        username: '',
-      },
-      course: {
-
-      }
-    }
+    this.state = {};
   }
   render(){
     return (
-      <div className="UserProfile">
-        <h1>UserProfile</h1>
-        <CourseList />
+      <div className="flex-item">
+        <Track />
       </div>
     )
   }
