@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import CourseItem from './CourseItem'
-// const courseName = 'Ruby'
-// const courseSource = 'www.source.com'
-// const courseLength = '50 hours'
-// const courseDescription = 'Course Description'
+
 class Track extends Component {
   constructor(){
     super();
   }
   render(){
-    let courses = {
 
-    }
+    const data = [{"course_name":"Ruby", "course_source":"www.source.com", "course_length":"50 hours", "course_description":"Course description", "image_url":"http://semantic-ui.com/images/wireframe/image.png"},]
+    const courses = data ? data.map((e,i) => (
+      <CourseItem courseName={e["course_name"]} courseSource={e["course_source"]} courseLength={e["course_length"]} courseDescription={e["course_description"]} imgUrl={e["image_url"]} /> )) : [];
     return (
       <div className="Track">
-        <CourseItem props={this.courseName}/>
+        {courses}
+>>>>>>> 08570295d253a2e3f6b94241036833e5ee84d42e
       </div>
     )
   }
