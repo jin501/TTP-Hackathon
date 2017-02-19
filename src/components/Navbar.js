@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Input, Menu, Image, Icon, Button } from 'semantic-ui-react';
 import { Link } from 'react-router';
 
-export default class MenuExampleSecondary extends Component {
+export default class Navbar extends Component {
   state = { activeItem: 'Home' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
