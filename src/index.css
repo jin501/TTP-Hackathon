@@ -28,7 +28,7 @@ body {
 
 .Track{
   position: fixed;
-  top: 30%;
+  top: 50%;
   left: 50%;
-  margin-left: -100px;
+  transform: translate(-50%, -50%);
 }
