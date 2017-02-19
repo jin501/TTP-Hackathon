@@ -11,6 +11,7 @@ class CourseItem extends Component {
 		const courseLength = '50 hours'
 		const courseDescription = 'Course Description'
     return (
+
       <div className="CourseItem">
 				<Item.Group as={Link} to={'/course/'+ this.props.courseName}>
 					<Item>
