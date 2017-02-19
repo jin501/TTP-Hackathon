@@ -6,25 +6,6 @@ body {
 
 .UserProfile {
 }
-.flex-container {
-  list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-
-}
-
-.flex-item {
-  height: 500px;
-  overflow-y: scroll;
-  text-align: center;
-}
 
 .Track{
   position: fixed;

@@ -13,14 +13,14 @@ class CourseItem extends Component {
       <div className="CourseList">
 				<Item.Group>
 					<Item>
-						<Item.Image size='tiny' src='http://semantic-ui.com/images/wireframe/image.png' />
+						<Item.Image size='tiny' src={this.props.imgUrl} />
 						<Item.Content>
-							<Item.Header>{courseName}</Item.Header>
+							<Item.Header>{this.props.courseName}</Item.Header>
 							<Item.Meta>
-								<span className='source'><i>{courseSource}</i></span>
-								<span className='length'>{courseLength}</span>
+								<span className='source'><i>{this.props.courseSource}</i></span>
+								<span className='length'>{this.props.courseLength}</span>
 							</Item.Meta>
-							<Item.Description>{courseDescription}</Item.Description>
+							<Item.Description>{this.props.courseDescription}</Item.Description>
 						</Item.Content>
 					</Item>
 				</Item.Group>
