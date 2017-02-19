@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
 
 import UserProfile from './UserProfile'
 import Menu from './Menu'
@@ -8,8 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Menu />
-        <h1>App</h1>
-        {this.props.children}
+        <Container fluid className='main-container'>
+          {this.props.children}
+        </Container>
       </div>
     );
   }
