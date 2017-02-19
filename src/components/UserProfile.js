@@ -5,18 +5,12 @@ class UserProfile extends Component {
   constructor(){
     super();
     this.state = {
-      user: {
-        name: '',
-        username: '',
-      },
-      course: {
-        
-      }
+
     }
   }
   render(){
     return (
-      <div className="UserProfile">
+      <div className="flex-item">
         <CourseList />
       </div>
     )
