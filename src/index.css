@@ -26,10 +26,9 @@ body {
   text-align: center;
 }
 
-.CourseList{
+.Track{
   position: fixed;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  margin-top: -50px;
   margin-left: -100px;
 }

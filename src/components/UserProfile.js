@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CourseList from './CourseList'
+import Track from './Track'
 
 class UserProfile extends Component {
   constructor(){
@@ -11,7 +11,7 @@ class UserProfile extends Component {
   render(){
     return (
       <div className="flex-item">
-        <CourseList />
+        <Track />
       </div>
     )
   }

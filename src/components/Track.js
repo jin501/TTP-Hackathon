@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import CourseItem from './CourseItem'
 
-class CourseList extends Component {
+class Track extends Component {
   render(){
     return (
-      <div className="CourseList">
+      <div className="Track">
         <CourseItem />
       </div>
     )
   }
 }
 
-export default CourseList;
+export default Track;
