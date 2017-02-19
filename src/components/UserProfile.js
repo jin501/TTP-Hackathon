@@ -9,7 +9,7 @@ class UserProfile extends Component {
   }
   render(){
     return (
-      <div className="flex-item">
+      <div className='UserProfile'>
         <Track />
       </div>
     )

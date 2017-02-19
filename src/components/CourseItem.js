@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image as ImageComponent, Item } from 'semantic-ui-react'
+import { Link } from 'react-router'
 
 const paragraph = <ImageComponent src='http://semantic-ui.com/images/wireframe/short-paragraph.png' />
 
@@ -10,8 +11,8 @@ class CourseItem extends Component {
 		const courseLength = '50 hours'
 		const courseDescription = 'Course Description'
     return (
-      <div className="CourseList">
-				<Item.Group>
+      <div className="CourseItem">
+				<Item.Group as={Link} to={'/course/'+ this.props.courseName}>
 					<Item>
 						<Item.Image size='tiny' src={this.props.imgUrl} />
 						<Item.Content>
