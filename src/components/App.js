@@ -4,7 +4,7 @@ import UserProfile from './UserProfile'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="flex-container">
         <UserProfile />
       </div>
     );
