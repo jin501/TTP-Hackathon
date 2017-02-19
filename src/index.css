@@ -7,9 +7,13 @@ body {
 .UserProfile {
 }
 
-.Track{
+.Track {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container.main-container {
+  margin: 0 100px !important;
 }
