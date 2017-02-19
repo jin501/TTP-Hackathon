@@ -5,6 +5,7 @@ class CourseList extends Component {
   render(){
     return (
       <div className="CourseList">
+        <hi>CourseList</hi>
         <CourseItem />
       </div>
     )

@@ -4,7 +4,7 @@ class CourseItem extends Component {
   render(){
     return (
       <div className="CourseList">
-        <h1>hi</h1>
+        <h1>CourseList</h1>
       </div>
     )
   }

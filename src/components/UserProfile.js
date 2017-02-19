@@ -10,13 +10,14 @@ class UserProfile extends Component {
         username: '',
       },
       course: {
-        
+
       }
     }
   }
   render(){
     return (
       <div className="UserProfile">
+        <h1>UserProfile</h1>
         <CourseList />
       </div>
     )
