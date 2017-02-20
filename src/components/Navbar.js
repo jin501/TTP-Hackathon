@@ -12,7 +12,7 @@ export default class Navbar extends Component {
 
     return (
       <div>
-        {/* <Image size='tiny' shape='circular' src='http://www.nyc.gov/html/techjobs/html/img/icon1.png' /> */}
+        <Image size='tiny' shape='circular' src='http://www.nyc.gov/html/techjobs/html/img/icon1.png' />
 
         <Menu icon inverted vertical borderless fixed='right' compact>
           <Menu.Item name='user' active={activeItem === 'user'} onClick={this.handleItemClick}>
