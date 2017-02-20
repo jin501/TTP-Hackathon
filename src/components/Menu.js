@@ -14,16 +14,16 @@ export default class MenuExampleSecondary extends Component {
       <div>
         {/* <Image size='tiny' shape='circular' src='http://www.nyc.gov/html/techjobs/html/img/icon1.png' /> */}
 
-        <Menu icon vertical borderless fixed='right' compact>
-          <Menu.Item name='user'  onClick={this.handleItemClick}>
+        <Menu icon inverted vertical borderless fixed='right' compact>
+          <Menu.Item name='user' active={activeItem === 'user'} onClick={this.handleItemClick}>
             <Icon name='user' />
           </Menu.Item>
 
-          <Menu.Item name='users'  onClick={this.handleItemClick}>
+          <Menu.Item name='users' active={activeItem === 'users'} onClick={this.handleItemClick}>
             <Icon name='users' />
           </Menu.Item>
 
-          <Menu.Item name='sign out'  onClick={this.handleItemClick}>
+          <Menu.Item name='sign out' active={activeItem === 'sign out'} onClick={this.handleItemClick}>
             <Icon name='sign out' />
           </Menu.Item>
         </Menu>
