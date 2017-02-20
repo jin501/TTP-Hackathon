@@ -15,15 +15,15 @@ export default class Navbar extends Component {
         <Image size='tiny' shape='circular' src='http://www.nyc.gov/html/techjobs/html/img/icon1.png' />
 
         <Menu icon vertical borderless fixed='right' compact>
-          <Menu.Item name='user'  onClick={this.handleItemClick}>
+          <Menu.Item name='user' as={Link} to={'/user'}  onClick={this.handleItemClick}>
             <Icon name='user' />
           </Menu.Item>
 
-          <Menu.Item name='users'  onClick={this.handleItemClick}>
+          <Menu.Item name='users' as={Link} to={'/community'}  onClick={this.handleItemClick}>
             <Icon name='users' />
           </Menu.Item>
 
-          <Menu.Item name='sign out'  onClick={this.handleItemClick}>
+          <Menu.Item name='sign out' as={Link} to={'/signout'} onClick={this.handleItemClick}>
             <Icon name='sign out' />
           </Menu.Item>
         </Menu>
@@ -31,3 +31,4 @@ export default class Navbar extends Component {
     )
   }
 }
+
