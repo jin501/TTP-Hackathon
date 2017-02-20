@@ -17,3 +17,9 @@ body {
 .container.main-container {
   margin: 0 100px !important;
 }
+
+.ui.segment {
+  border: none;
+  box-shadow: none;
+  margin-left: 100px !important
+}
