@@ -17,3 +17,11 @@ body {
 .container.main-container {
   margin: 0 100px !important;
 }
+
+.logo {
+  background-color: teal;
+}
+
+.navbar {
+  background: #65d869;
+}
