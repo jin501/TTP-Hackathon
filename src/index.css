@@ -23,3 +23,7 @@ body {
   box-shadow: none;
   margin-left: 100px !important
 }
+
+.CourseItem {
+  margin-top: 10px;
+}
