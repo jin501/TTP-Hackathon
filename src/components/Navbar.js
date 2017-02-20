@@ -18,15 +18,15 @@ export default class Navbar extends Component {
         </div>
 
         <Menu icon inverted vertical borderless fixed='right' compact>
-          <Menu.Item name='user' active={activeItem === 'user'} onClick={this.handleItemClick}>
+          <Menu.Item name='user' as={Link} to={'/user'}  onClick={this.handleItemClick}>
             <Icon name='user' />
           </Menu.Item>
 
-          <Menu.Item name='users' active={activeItem === 'users'} onClick={this.handleItemClick}>
+          <Menu.Item name='users' as={Link} to={'/community'}  onClick={this.handleItemClick}>
             <Icon name='users' />
           </Menu.Item>
 
-          <Menu.Item name='sign out' active={activeItem === 'sign out'} onClick={this.handleItemClick}>
+          <Menu.Item name='sign out' as={Link} to={'/signout'} onClick={this.handleItemClick}>
             <Icon name='sign out' />
           </Menu.Item>
         </Menu>
