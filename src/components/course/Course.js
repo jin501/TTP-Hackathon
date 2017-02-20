@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
 export default class Course extends Component {
-
+  // this.props = {description: "blahh"}
   render() {
     return (
-      <h1>Course Title</h1>
+      <p>here is a description of this course. </p>
     )
   }
 }

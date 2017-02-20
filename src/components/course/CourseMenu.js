@@ -20,7 +20,6 @@ export default class CourseMenu extends Component {
     if(this.state.activeItem == "Review"){
       return <Review />
     }
-
   }
 
   render() {
@@ -30,7 +29,7 @@ export default class CourseMenu extends Component {
 
     return (
       <Grid>
-        <Grid.Column width={2}>
+        <Grid.Column width={4}>
           <Menu pointing vertical>
             <Menu.Item as={Link} to={'/course/'+ this.props.courseName} name='Course' active={activeItem === 'Course'} onClick={this.handleItemClick} />
             <Menu.Item as={Link} to={'/course/'+ this.props.courseName + '/discussion'} name='Discussion' active={activeItem === 'Discussion'} onClick={this.handleItemClick} />
